@@ -10,8 +10,6 @@ var io = {
     cfg : {},
     sock : null,
     wsuri : null,
-    response : {},
-    auth : false,
     error : null,
     uniquesids : null,
 
