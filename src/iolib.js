@@ -170,7 +170,7 @@ var io = {
     addclient : function (){
         var obj = {
             cfun : 'joinroom',
-            arg : {'client':this.cfg.userid, 'roomname':this.cfg.fastchatroom_name, 'user':this.cfg.userobj}
+            arg : {'client':this.cfg.userid, 'roomname':this.cfg.room, 'user':this.cfg.userobj}
         }
         var jobj = JSON.stringify(obj);
         this.sock.send(jobj);
